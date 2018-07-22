@@ -72,16 +72,17 @@ section:last-child {
 }
 
 .row {
-    width: 100%;
     display: flex;
-    justify-content: space-between;
+    margin: 10px 0;
 }
 
 .match {
-    width: 28%;
+    max-width: 500px;
+    width: 100%;
     border: 1px solid white;
     border-radius: 20px;
     padding: 10px;
+    margin: 10px auto;
 }
 
 .match:hover {
@@ -95,5 +96,10 @@ section:last-child {
 }
 
 .details {
+    width: 100%;
     font-size: 15px;
+}
+
+.pull-right {
+    text-align: right;
 }
