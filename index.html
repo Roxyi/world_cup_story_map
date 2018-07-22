@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>World Map Cup - Challenge #3</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href='css/app.css' rel='stylesheet' />
+</head>
+<body>
+    <div id='map'></div>
+    <div class='map-overlay top'>
+        <div class='map-overlay-inner'>
+            <div id='legend' class='legend'>
+                <div class='bar'></div>
+                <div>Population</div>
+            </div>
+        </div>
+    </div>
+    <div id='features'>
+        <section id='welcome' class='active'>
+            <h3>World Cup 2018 Team Story: Iceland</h3>
+            <p>Iceland made a history in World Cup 2018 with its first entry to the World Cup finals. Let's see their story.</p>
+        </section>
+        <section id='section1' class='active'>
+            <h3>Population</h3>
+            <p>Iceland has a population of 348,580 (0.3 million) and an area of 103,000 km2 (40,000 sq mi). -- <a href="https://en.wikipedia.org/wiki/Iceland" style="color: #A0A0A3"><em>Wikipedia</em></a></p>
+            <p>It ranked 180 in 2017</p>
+            <p></p>
+            <div id="container"></div>
+        </section>
+        <section id='section2'>
+            <h3>Players</h3>
+            <p>As you scroll through these sections, your map will fly them to the locations you've specified. A sense of place is something that a lot of people resonate with. Give your story context with a view of landscape or vary the pitch and rotation to get a new perspective.</p>
+        </section>
+        <section id='section3'>
+            <h3>Historical Moment</h3>
+            <p>Or videos! WHAT!<br><br><iframe width="560" height="315" src="https://www.youtube.com/embed/Vwrq3F1x4CQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> </p>
+
+        </section>
+        <section id='section4'>
+            <h3>All Matches</h3>
+            <div class="row">
+                <div class="match" id='stadium1'>
+                    <div class="score">
+                        <p>Argentina 1-1 Iceland</p>
+                    </div>
+                    <div class="details">
+                        <p>16 June 2018 16:00 MSK</p>
+                        <p>Otkritie Arena, Moscow</p>
+                        <p>Attendance: 44,190</p>
+                    </div>
+                </div>
+                <div class="match" id='stadium2'>
+                    <div class="score">
+                        <p>Nigeria 2-0 Iceland</p>
+                    </div>
+                    <div class="details">
+                        <p>22 June 2018 18:00 MSK</p>
+                        <p>Volgograd Arena, Volgograd</p>
+                        <p>Attendance: 40,904</p>
+                    </div>
+                </div>
+                <div class="match" id='stadium3'>
+                    <div class="score">
+                        <p>Iceland 1-2 Croatia</p>
+                    </div>
+                    <div class="details">
+                        <p>26 June 2018 21:00 MSK</p>
+                        <p>Rostov Arena, Rostov-on-Don</p>
+                        <p>Attendance: 43,472</p>
+                    </div>
+                </div>
+            </div>
+            <p>Source: <a href="https://en.wikipedia.org/wiki/Iceland_at_the_FIFA_World_Cup" style="color: white">Wikipedia</a></p>
+        </section>
+        <section id='section5'>
+            <h3>Fun Fact</h3>
+            <img src="data/hannes.jpg" alt="Hannes Halldórsson">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fdS6lVtzZdw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </section>
+    </div>
+    <script src='js/app.js'></script>
+</body>
+</html>

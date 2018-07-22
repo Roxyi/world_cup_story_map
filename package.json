@@ -1,0 +1,15 @@
+{
+  "name": "worldcup",
+  "version": "1.0.0",
+  "description": "A story map about Iceland football team",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yi Xu",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.5",
+    "gulp": "^3.9.1"
+  }
+}

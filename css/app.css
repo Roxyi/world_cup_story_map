@@ -1,0 +1,99 @@
+body {
+	margin: 0;
+	padding: 0;
+    background-color: #182025;
+}
+
+#map {
+    position: fixed;
+    width:50%;
+    top: 0;
+	bottom: 0;
+}
+#features {
+    width: 50%;
+    margin-left: 50%;
+    font-family: Tw Cen MT;
+    overflow-y: scroll;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    /*background-color: #fafafa;*/
+}
+section {
+    padding:  25px 50px;
+    line-height: 25px;
+    border-bottom: 1px solid #ddd;
+    opacity: 0.25;
+    font-size: 20px;
+}
+section.active {
+    opacity: 1;
+}
+section:last-child {
+    border-bottom: none;
+    margin-bottom: 1000px;
+}
+
+#container {
+    height: 600px;
+    margin: 0 auto
+}
+
+
+.map-overlay {
+    font: 12px/20px 'Lato', sans-serif;
+    position: fixed;
+    width: 20%;
+    bottom: 20px;
+    left: 0;
+    padding: 10px;
+}
+
+.map-overlay .map-overlay-inner {
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+.map-overlay .legend .bar {
+    height: 10px;
+    width: 100%;
+    background: linear-gradient(to right, #ffffd9, #edf8b1, #c7e9b4, #7fcdbb, #41b6c4, #1d91c0, #225ea8, #253494, #081d58);
+}
+
+#legend {
+    display: none;
+}
+
+.mapboxgl-popup-close-button {
+    display: none;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.match {
+    width: 28%;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.match:hover {
+    cursor: pointer;
+    /*background-color: #415766;*/
+}
+
+.score {
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.details {
+    font-size: 15px;
+}

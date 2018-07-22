@@ -1,0 +1,339 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "count": 1,
+        "country": "Azerbaijan",
+        "players": [
+          {
+            "name": "Hannes Þór Halldórsson",
+            "age": 34,
+            "position": "GK",
+            "club": "Qarabağ"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.7, 40.3]
+      },
+      "id": 1
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "count": 1,
+        "country": "Denmark",
+        "players": [
+          {
+            "name": "Frederik Schram",
+            "age": 23,
+            "position": "GK",
+            "club": "Roskilde"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.083333, 55.65]
+      },
+      "id": 2
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "count": 1,
+        "country": "France",
+        "players": [
+          {
+            "name": "Rúnar Alex Rúnarsson",
+            "age": 23,
+            "position": "GK",
+            "club": "Dijon"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.0428, 47.2906]
+      },
+      "id": 3
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "count": 3,
+        "country": "Iceland",
+        "players": [
+          {
+            "name": "Birkir Már Sævarsson",
+            "age": 33,
+            "position": "DF",
+            "club": "Valur"
+          },
+          {
+            "name": "Kári Árnason",
+            "age": 35,
+            "position": "DF",
+            "club": "Víkingur"
+          },
+          {
+            "name": "Ólafur Ingi Skúlason",
+            "age": 35,
+            "position": "MF",
+            "club": "Fylkir"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-21.933333, 64.133333]
+      },
+      "id": 4
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "count": 1,
+        "country": "Norway",
+        "players": [
+          {
+            "name": "Samúel Friðjónsson",
+            "age": 22,
+            "position": "DF",
+            "club": "Vålerenga"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.733333, 59.916667]
+      },
+      "id": 5
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "count": 4,
+        "country": "Russia",
+        "players": [
+          {
+            "name": "Sverrir Ingi Ingason",
+            "age": 24,
+            "position": "DF",
+            "club": "Rostov"
+          },
+          {
+            "name": "Ragnar Sigurðsson",
+            "age": 32,
+            "position": "DF",
+            "club": "Rostov"
+          },
+          {
+            "name": "Björn Bergmann Sigurðarson",
+            "age": 27,
+            "position": "FW",
+            "club": "Rostov"
+          },
+          {
+            "name": "Hörður Björgvin Magnússon",
+            "age": 25,
+            "position": "DF",
+            "club": "CSKA Moscow"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [37.616667, 55.75]
+      },
+      "id": 6
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "count": 1,
+        "country": "Bulgaria",
+        "players": [
+          {
+            "name": "Hólmar Örn Eyjólfsson",
+            "age": 27,
+            "position": "DF",
+            "club": "Levski Sofia"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [23.33, 42.7]
+      },
+      "id": 7
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "count": 1,
+        "country": "Belgium",
+        "players": [
+          {
+            "name": "Ari Freyr Skúlason",
+            "age": 31,
+            "position": "DF",
+            "club": "Lokeren"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [3.983333, 51.1]
+      },
+      "id": 8
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "count": 4,
+        "country": "England",
+        "players": [
+          {
+            "name": "Jóhann Berg Guðmundsson",
+            "age": 27,
+            "position": "MF",
+            "club": "Burnley"
+          },
+          {
+            "name": "Birkir Bjarnason",
+            "age": 30,
+            "position": "MF",
+            "club": "Aston Villa"
+          },
+          {
+            "name": "Gylfi Sigurðsson",
+            "age": 28,
+            "position": "MF",
+            "club": "Everton"
+          },
+          {
+            "name": "Jón Daði Böðvarsson",
+            "age": 26,
+            "position": "FW",
+            "club": "Reading"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.116667, 51.5]
+      },
+      "id": 9
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "count": 1,
+        "country": "Wales",
+        "players": [
+          {
+            "name": "Aron Gunnarsson (Captain)",
+            "age": 29,
+            "position": "MF",
+            "club": "Cardiff City"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6, 52.3]
+      },
+      "id": 10
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "count": 2,
+        "country": "Germany",
+        "players": [
+          {
+            "name": "Rúrik Gíslason",
+            "age": 30,
+            "position": "MF",
+            "club": "SV Sandhausen"
+          },
+          {
+            "name": "Alfreð Finnbogason",
+            "age": 29,
+            "position": "FW",
+            "club": "FC Augsburg"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [9, 51]
+      },
+      "id": 11
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "count": 1,
+        "country": "Italy",
+        "players": [
+          {
+            "name": "Emil Hallfreðsson",
+            "age": 34,
+            "position": "MF",
+            "club": "Udinese"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12, 43]
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "count": 1,
+        "country": "Sweden",
+        "players": [
+          {
+            "name": "Arnór Ingvi Traustason",
+            "age": 25,
+            "position": "MF",
+            "club": "Malmö FF"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16, 63]
+      },
+      "id": 13
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "count": 1,
+        "country": "Netherlands",
+        "players": [
+          {
+            "name": "Albert Guðmundsson",
+            "age": 27,
+            "position": "FW",
+            "club": "PSV"
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [16, 63]
+      },
+      "id": 14
+    }
+  ]
+}
