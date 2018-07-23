@@ -9,6 +9,9 @@ var map = new mapboxgl.Map({
         maxZoom: 18
 });
 
+// Add zoom and rotation controls to the map.
+map.addControl(new mapboxgl.NavigationControl());
+
 var hoverId = null;
 
 var expanded = true;
@@ -197,7 +200,7 @@ map.on('load', function() {
         }
     });
 
-    // When the user moves their mouse over the players layer, we'll update the 
+    // When the user moves their mouse over the players layer, we'll update the
     // feature state for the feature under the mouse.
     map.on('mouseenter', 'players', function(e) {
         if (e.features.length) {
@@ -246,11 +249,11 @@ map.on('load', function() {
             htmlContent += `<strong>Country: </strong><span>${e.features[0].properties.country}</span>`;
             var players = JSON.parse(e.features[0].properties.players);
             for (player of players) {
-                htmlContent += 
+                htmlContent +=
                 `   <hr>
                     <p><strong>Name: </strong><span>${player.name}</span></p>
                     <p><strong>Age: </strong><span>${player.age}</span></p>
-                    <p><strong>Club: </strong><span>${player.club}</span></p>   
+                    <p><strong>Club: </strong><span>${player.club}</span></p>
                 `
             }
             new mapboxgl.Popup()
@@ -288,7 +291,7 @@ map.on('load', function() {
         return bounds.top < window.innerHeight && bounds.bottom > 0;
     }
 
-    //Animates the above layer forever by at a specific interval (500ms) 
+    //Animates the above layer forever by at a specific interval (500ms)
     window.setInterval(function(){
         //If the circle is expanded, reduce the size and opacity
         //If the circle is not expanded, increase the size and opacity
