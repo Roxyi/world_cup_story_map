@@ -61,6 +61,9 @@ map.on('load', function() {
         id: 'players',
         type: 'circle',
         source: 'playerData',
+        layout: {
+            'visibility': 'none'
+        },
         paint: {
             'circle-color': '#fff',
             'circle-stroke-width': 1,
