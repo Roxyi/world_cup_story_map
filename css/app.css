@@ -46,7 +46,7 @@ body {
     width: 50%;
     margin-left: 50%;
     color: white;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 section {
     padding: 100px 50px 25px;
@@ -75,7 +75,7 @@ section:last-child {
 
 
 .map-overlay {
-    font: 12px/20px 'Lato', sans-serif;
+    font: 12px/20px 'Helvetica Neue', sans-serif;
     position: fixed;
     width: 20%;
     bottom: 20px;
@@ -136,4 +136,10 @@ section:last-child {
 
 .pull-right {
     text-align: right;
+}
+
+.end {
+    padding: 20px 50px;
+    line-height: 25px;
+    font-size: 20px;
 }
