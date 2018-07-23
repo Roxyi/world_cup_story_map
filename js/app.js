@@ -54,7 +54,7 @@ map.on('load', function() {
 
     map.addSource('playerData', {
         type: 'geojson',
-        data: '../data/players.geojson'
+        data: './data/players.geojson'
     });
 
     map.addLayer({
@@ -88,7 +88,7 @@ map.on('load', function() {
     });
 
 
-    map.loadImage('../data/otkritie.png', function(error, image) {
+    map.loadImage('./data/otkritie.png', function(error, image) {
         if (error) throw error;
         map.addImage('otkritie', image);
         map.addLayer({
