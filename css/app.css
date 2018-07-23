@@ -83,6 +83,27 @@ section:last-child {
     padding: 10px;
 }
 
+.map-widget {
+    font: 12px/20px 'Helvetica Neue', sans-serif;
+    position: fixed;
+    width: auto;
+    top: 20px;
+    left: 0;
+    padding: 10px;   
+}
+
+.map-widget .map-widget-inner {
+    background-color: #182025;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.map-widget-inner a {
+    color: #f1dbb9;
+}
+
 .map-overlay .map-overlay-inner {
     border-radius: 3px;
     padding: 10px;
