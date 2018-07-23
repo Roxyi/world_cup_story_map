@@ -49,12 +49,17 @@ body {
     font-family: 'Lato', sans-serif;
 }
 section {
-    padding:  25px 50px;
+    padding: 100px 50px 25px;
     line-height: 25px;
     border-bottom: 1px solid #ddd;
     opacity: 0.25;
     font-size: 20px;
 }
+
+#welcome {
+    padding-top: 25px;
+}
+
 section.active {
     opacity: 1;
 }
